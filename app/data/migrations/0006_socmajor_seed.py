@@ -15,7 +15,6 @@ def forward(__code__, __reverse_code__):
         (8, "25-0000", "Educational Instruction and Library Occupations"),
         (9, "27-0000", "Arts, Design, Entertainment, Sports, and Media Occupations"),
         (10, "29-0000", "Healthcare Practitioners and Technical Occupations"),
-
     ]
     for uuid, occ_code, title in items:
         SocMajor.objects.create(uuid=uuid, occ_code=occ_code, title=title)
