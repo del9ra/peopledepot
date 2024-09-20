@@ -121,5 +121,4 @@ def test_check_type(check_type):
 
 
 def test_soc_major(soc_major):
-    assert str(soc_major.title) == "Test Soc Major"
-    assert str(soc_major.occ_code) == "22-2222"
+    assert str(soc_major) == "Test Soc Major"
